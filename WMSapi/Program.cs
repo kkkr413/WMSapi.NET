@@ -33,7 +33,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwaggerUI();
 }
 
- // .WithOrigins("http://192.168.50.56:3000", "http://localhost:3000")
+
 
 app.UseHttpsRedirection();
 
